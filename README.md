@@ -8,9 +8,11 @@ To write a program to find the 1-norm, 2-norm and infinity norm of the matrix an
 1. Import numpy module
 2. Get the input matrix using np.array()
 3. Find the norm of the matrix using np.linalg.norm()
+```
        1. np.linalg.norm(a,1) for 1-Norm
        2. np.linalg.norm(a,2) for 2-Norm
        3. np.linalg.norm(a,np.inf) for Infinity-Norm
+```
 4. Print the norm of the matrix in two decimal places.
 ## Program:
 ```Python
