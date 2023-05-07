@@ -16,6 +16,7 @@ To write a program to find the 1-norm, 2-norm and infinity norm of the matrix an
 ```Python
 # Register No: 212222230028
 # Developed By: DEEPIKA.S
+```
 # 1-Norm of a Matrix
 
 import numpy as np
@@ -40,7 +41,6 @@ soln=np.linalg.norm(a,np.inf)
 norm="{:.2f}".format(soln)
 print(norm)
 
-```
 ## Output:
 ### 1-Norm of a Matrix
 ![image](https://user-images.githubusercontent.com/119393935/236673210-aaa8a3e3-57b3-4092-8741-f99530f5b15f.png)
